@@ -22,7 +22,8 @@ git config --global core.editor "code --wait"
 
 git config --global -e 
 
-se abrira visual studio code y para seguir con la configuracion vamos a tener que cerrar la ventana de VSCODE*.
+se abrira visual studio code y para seguir con la configuracion vamos a tener que 
+cerrar la ventana de VSCODE*.
 
 git config --global core.autocrlf true
 
@@ -39,7 +40,8 @@ cd documents
 Paso 6
 Crear la carpeta del archivo.
 
-ya en la carpeta predeterminada es hora de crear el archivo utilizando "mkdir" y volvemos a usar "cd" para navegar asta la carpeta que creamos 
+ya en la carpeta predeterminada es hora de crear el archivo utilizando "mkdir" y 
+volvemos a usar "cd" para navegar asta la carpeta que creamos 
 
 Ej:
 mkdir nombre_de_la_carpeta
@@ -66,7 +68,8 @@ Paso 9
 Utilizar "Ctrl + S" para guardar las modificaciones del archivo.
 
 Paso 10
-Volvemos a la consola y vamos a utilizar "git add" para que git le de seguimiento a nuestro archivo creado".
+Volvemos a la consola y vamos a utilizar "git add" para que git le de seguimiento a 
+nuestro archivo creado".
 
 Ej: 
 git add nombre_de_nuestro_archivo.txt
@@ -125,7 +128,8 @@ git remote add origin https://github.com/Juandeveloper99/paste.
 git push -u origin main 
 
 Paso 18
-Ahora github nos dara una clave de acceso de 6 digitos y se nos abrira una ventana donde los colocaremos.
+Ahora github nos dara una clave de acceso de 6 digitos y se nos abrira una ventana donde los 
+colocaremos.
 
 Paso 19 
 Luego de eso refrescamos la pagina de github y ya estara nuestro repositorio subido.
@@ -142,4 +146,5 @@ utiliza:
 Nota: si tu quieres evitar que se agreguen carpetas especificas a tu repositorio, abre VSCODE
 y en la carpeta de nuestro archivo vas a crear  un archivo con el nombre de ".gitignore".
 
-Ahora si tu quieras evitar que se suban archivos a tu repositorio 
+Ahora si tu quieras evitar que se suban archivos a tu repositorio solo tienes que escribir
+en el archivo ".gitignore" el nombre de esos archivos.
